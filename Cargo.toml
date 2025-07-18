@@ -1,0 +1,8 @@
+[package]
+name = "gpu_testing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cudarc = { version = "0.16.6", features = ["cuda-12090"] }
+
